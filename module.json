@@ -39,36 +39,39 @@
       }
     ]
   },
-    "packs": [
-      {
-        "label": "キャラクター",
-        "type": "Actor",
-        "name": "NightOfBloodActors",
-        "path": "./packs/night-of-blood-actors.db",
-        "package": "wfrp4e-night-of-blood"
-      },
-      {
-        "label": "シーン",
-        "type": "Scene",
-        "name": "NightOfBloodScenes",
-        "path": "./packs/night-of-blood-scenes.db",
-        "package": "wfrp4e-night-of-blood"
-      },
-      {
-        "label": "ジャーナル（未訳）",
-        "name": "NightOfBloodJournal",
-        "path": "./packs/night-of-blood-journal.db",
-        "type": "JournalEntry",
-        "package": "wfrp4e-night-of-blood"
-      },
-      {
-        "name": "NightOfBloodSFX",
-        "label": "効果音",
-        "path": "./packs/night-of-blood-sfx.db",
-        "type": "Playlist",
-        "package": "wfrp4e-night-of-blood"
-      }
-    ],
+  "scripts": [
+    "init.js"
+  ],
+  "packs": [
+    {
+      "label": "キャラクター",
+      "type": "Actor",
+      "name": "NightOfBloodActors",
+      "path": "./packs/night-of-blood-actors.db",
+      "package": "wfrp4e-night-of-blood"
+    },
+    {
+      "label": "シーン",
+      "type": "Scene",
+      "name": "NightOfBloodScenes",
+      "path": "./packs/night-of-blood-scenes.db",
+      "package": "wfrp4e-night-of-blood"
+    },
+    {
+      "label": "ジャーナル（未訳）",
+      "name": "NightOfBloodJournal",
+      "path": "./packs/night-of-blood-journal.db",
+      "type": "JournalEntry",
+      "package": "wfrp4e-night-of-blood"
+    },
+    {
+      "name": "NightOfBloodSFX",
+      "label": "効果音",
+      "path": "./packs/night-of-blood-sfx.db",
+      "type": "Playlist",
+      "package": "wfrp4e-night-of-blood"
+    }
+  ],
   "flags": {
     "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
   },
