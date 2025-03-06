@@ -34,12 +34,8 @@
       }
     ]
   },
-  "esmodules": [],
   "scripts": [
     "init.js"
-  ],
-  "systems": [
-    "wfrp4e"
   ],
   "styles": [
     "./styles.css"
