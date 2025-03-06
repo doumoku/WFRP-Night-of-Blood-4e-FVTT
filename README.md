@@ -1,3 +1,6 @@
+このMODは、CStuarEKerriganさんの作成された、fvtt用ウォーハンマーRPG第4版モジュール「流血の夜/Night of Blood」の日本語版V12です。
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/assets/icons/logo2.png" alt="Night of Blood">
 </p>
