@@ -4,23 +4,36 @@
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
   "version": "3.0",
   "author": "Stuart Kerrigan",
-  "dependencies": [
-    {
-      "name": "lib-wrapper"
-    },
-    {
-      "name": "betterroofs"
-    },
-    {
-      "name": "wall-height"
-    },
-    {
-      "name": "levels"
-    },
-    {
-      "name": "token-attacher"
-    }
-  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "betterroofs",
+        "type": "module"
+      },
+      {
+        "id": "levels",
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      },
+      {
+        "id": "token-attacher",
+        "type": "module"
+      },
+      {
+        "id": "wall-hight",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system"
+      }
+    ]
+  },
   "esmodules": [],
   "scripts": [
     "init.js"
