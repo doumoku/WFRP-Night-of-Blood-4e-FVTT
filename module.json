@@ -69,6 +69,9 @@
         "package": "wfrp4e-night-of-blood"
       }
     ],
+  "flags": {
+    "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
+  },
   "compatibility": {
     "minimum": "12",
     "verified": "12"
