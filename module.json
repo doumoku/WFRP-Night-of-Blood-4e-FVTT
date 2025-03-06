@@ -42,9 +42,6 @@
   "scripts": [
     "init.js"
   ],
-  "styles": [
-    "./styles.css"
-  ],
   "packs": [
     {
       "label": "Night of Blood Actors",
